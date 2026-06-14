@@ -178,4 +178,4 @@ snowflake-budget-variance-ford/
 
 ## About
 
-Developed by **Ana Gabriela Urbina** as part of a team project for the *Integración de Bases de Datos con Snowflake* course — Educación Continua, Tecnológico de Monterrey.
+Developed by **Ana Gabriela Urbina** as part of a team project for the *Integración de Bases de Datos con Snowflake* course, Tecnológico de Monterrey.
