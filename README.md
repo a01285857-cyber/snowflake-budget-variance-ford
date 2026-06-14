@@ -28,7 +28,7 @@ Before touching any data, the first step was understanding how the three tables 
 **Entity-Relationship Diagram** — maps the operational relationships between the three source tables.
 
 <p align="center">
-  <img src="docs/01DiagramaER.pdf" alt="ER Diagram" width="700"/>
+  <img src="docs/er_diagram.jpeg" alt="ER Diagram" width="700"/>
 </p>
 
 > `CATALOGO_AREAS` is the master table. Both `REAL` (actual spending) and `PRESUPUESTO` (approved budget) link to it through `ID_Area`. This N:1 relationship is what makes the variance comparison possible.
@@ -36,7 +36,7 @@ Before touching any data, the first step was understanding how the three tables 
 **Star Schema** — transforms the operational model into an analytics-ready dimensional model.
 
 <p align="center">
-  <img src="docs/02StarSchema.pdf" alt="Star Schema" width="700"/>
+  <img src="docs/star_schema.jpeg" alt="Star Schema" width="700"/>
 </p>
 
 > The star schema separates facts (spending and budget amounts) from dimensions (area and time). This is the foundation for efficient aggregation and filtering in analytics queries. Granularity: one record per area × date × expense type.
