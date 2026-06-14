@@ -182,8 +182,3 @@ snowflake-budget-variance-ford/
 | Dashboard | Streamlit in Snowflake (Python) |
 | Source Data | Excel → CSV (Ford Motor Company simulated dataset) |
 
----
-
-## About
-
-Developed by **Ana Gabriela Urbina** as part of a team project for the *Integración de Bases de Datos con Snowflake* course, Tecnológico de Monterrey.
