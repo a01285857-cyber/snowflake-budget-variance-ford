@@ -1,10 +1,5 @@
 # Ford Motor Company — Budget Variance Analysis on Snowflake
 
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-
 > End-to-end data engineering and analytics project built on Snowflake — from raw financial data to an interactive dashboard. Developed as a team project for the *Integración de Bases de Datos con Snowflake* course at Tecnológico de Monterrey (Educación Continua).
 
 ---
@@ -134,7 +129,7 @@ st.bar_chart(df, x="NOMBRE_AREA", y="VARIANZA")
 
 ## Dashboard Preview
 
-![Streamlit Dashboard](screenshots/streamlit_dashboard.jpeg)
+![Streamlit Dashboard](screenshots/Varianza%20Ford%20Streamlit.png)
 
 > Live app deployed on Streamlit in Snowsight. Requires Snowflake account access — the view and app run inside `FORD_DB.FINANZAS`.
 
