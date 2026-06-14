@@ -2,15 +2,21 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=29B5E8&height=200&section=header&text=Ford%20Budget%20Variance&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=End-to-end%20Snowflake%20Analytics%20Project&descAlignY=55&descSize=16" width="100%"/>
 </div>
 
-> End-to-end data engineering and analytics project built on Snowflake — from raw financial data to an interactive dashboard. Developed as a team project for the *Integración de Bases de Datos con Snowflake* course at Tecnológico de Monterrey (Educación Continua).
+> End-to-end data engineering and analytics project built on Snowflake — from raw simulated financial data to an interactive dashboard. Developed as a team project for the *Integración de Bases de Datos con Snowflake* course at Tecnológico de Monterrey.
 
 ---
 
 ## The Business Problem
 
-Imagine you're a data analyst at Ford Motor Company. Finance gives you a spreadsheet with over 500 spending transactions across 8 business areas throughout 2024. They also give you the approved budget for each area, month by month. The question is simple: **did each area spend more or less than what was planned?**
+Budget variance analysis requires comparing actual spending against the approved budget across business areas. However, the available financial data contained multiple data quality issues that prevented accurate and efficient reporting.
 
-The answer, however, was not. The raw data had mixed date formats, amounts stored as text with `$` signs and commas, missing cost centers, and no direct way to link actual spending to the budget. This project solves that — step by step — entirely in Snowflake.
+The main challenges included:
+- Inconsistent date formats
+- Monetary values stored as text
+- Missing cost center information
+- No direct relationship between actual spending and budget data
+
+This project addresses these challenges by building an end-to-end data engineering pipeline in Snowflake to clean, model, and integrate the data into a dimensional model, enabling accurate budget variance analysis and interactive reporting.
 
 ---
 
