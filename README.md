@@ -1,4 +1,6 @@
-# Ford Motor Company — Budget Variance Analysis on Snowflake
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=29B5E8&height=200&section=header&text=Ford%20Budget%20Variance&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=End-to-end%20Snowflake%20Analytics%20Project&descAlignY=55&descSize=16" width="100%"/>
+</div>
 
 > End-to-end data engineering and analytics project built on Snowflake — from raw financial data to an interactive dashboard. Developed as a team project for the *Integración de Bases de Datos con Snowflake* course at Tecnológico de Monterrey (Educación Continua).
 
